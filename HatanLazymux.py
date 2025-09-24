@@ -1,4 +1,4 @@
-## lazymux.py - Lazymux v4.0
+## HatanLazymux.py - HatanLazymux v4.0 by hatanhack
 ##
 import os, sys
 import readline
@@ -26,8 +26,8 @@ def main():
     print("   [17] Malware Analysis")
     print("   [18] Compiler/Interpreter")
     print("   [19] Social Engineering Tools")
-    print("\n   [99] Update the Lazymux")
-    print("   [00] Exit the Lazymux\n")
+    print("\n   [99] Update the HatanLazymux")
+    print("   [00] Exit the HatanLazymux\n")
     lazymux = input("lzmx > set_install ")
 
     # 01 - Information Gathering
@@ -956,7 +956,7 @@ def main():
         sys.exit()
     
     else:
-        print("\nERROR: Wrong Input")
+        print("\nERROR: Wrong Input in HatanLazymux")
         timeout(1)
         restart_program()
 
