@@ -1,8 +1,7 @@
-
-pranayama() {
-# Usage: pranayama
+hatanpranayama() {
+# Usage: hatanpranayama
 #           or
-#        pranayama [n]
+#        hatanpranayama [n]
 if test -z "$1"; then
 	repeat=4
 else
