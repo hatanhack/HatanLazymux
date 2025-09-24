@@ -1,6 +1,5 @@
-
-iconset() {
-# Usage: iconset project_name icon.png
+hataniconset() {
+# Usage: hataniconset project_name icon.png
 if test ! -d $HOME/appicon; then
 	mkdir $HOME/appicon
 fi
